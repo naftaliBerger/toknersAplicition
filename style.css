@@ -1,0 +1,95 @@
+/* אפס מרווחים */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  direction: ltr;
+  background: linear-gradient(to right, #381d2c, #272233);
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* אזור עליון */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px; /* גובה הלוגו */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  width: 65px;
+  height: 17px;
+}
+
+ul li a:hover {
+  color: #0077ff;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-side img {
+  width: 1010px;
+  height: 901px;
+}
+
+.right-side {
+  max-width: 50%;
+}
+
+.right-side h1 {
+  width: 562px;
+  height: 162px;
+  opacity: 1;
+  top: 334px;
+  left: 173px;
+  color: #ffffff;
+  padding-bottom: 250px;
+  padding-top: 92px;
+}
+
+.right-side h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.right-side button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #22a75d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.right-side button:hover {
+  background-color: #40eb0c;
+}
